@@ -1,0 +1,29 @@
+.card-header {
+    color: black;
+    font-style: italic;
+    fieldset {
+        border: 1px solid black;
+        margin: 5px;
+        padding: 12px;
+        display: flex;
+        .block {
+            margin: 7px;
+        }
+        legend {
+            color: black;
+            font-size: 12px;
+            display: inline-block;
+            padding: 6px;
+            text-align: center;
+            width: auto;
+        }
+    }
+}
+.card-body {
+    .table {
+        border: 1px solid red;
+    }
+    .table-responsive-xl {
+        border: 1px solid red;
+    }
+}
